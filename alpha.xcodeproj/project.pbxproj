@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086C277C173DFAB200969E6D /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 086C277B173DFAB200969E6D /* AccelerometerFilter.m */; };
+		086C277D173DFAB200969E6D /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 086C277B173DFAB200969E6D /* AccelerometerFilter.m */; };
+		086C2782173E323D00969E6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C2781173E323D00969E6D /* QuartzCore.framework */; };
+		086C27A01740234E00969E6D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C279E1740234E00969E6D /* libTestFlight.a */; };
+		086C27A11740234E00969E6D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C279E1740234E00969E6D /* libTestFlight.a */; };
+		086C27A31740240E00969E6D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C27A21740240E00969E6D /* libz.dylib */; };
+		325298FD17321744001018B4 /* MSGestaltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325298FB17321744001018B4 /* MSGestaltViewController.m */; };
+		325298FE17321744001018B4 /* MSGestaltViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325298FC17321744001018B4 /* MSGestaltViewController.xib */; };
+		3252990117321CD7001018B4 /* MSInfiniteHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252990017321CD6001018B4 /* MSInfiniteHScrollView.m */; };
+		3252990417322898001018B4 /* MSStreamPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252990317322898001018B4 /* MSStreamPreView.m */; };
+		325299071732305A001018B4 /* MSStreamCtaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 325299061732305A001018B4 /* MSStreamCtaView.m */; };
 		C060D6C917289A4100ED0375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060D6C817289A4100ED0375 /* UIKit.framework */; };
 		C060D6CB17289A4100ED0375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060D6CA17289A4100ED0375 /* Foundation.framework */; };
 		C060D6CD17289A4100ED0375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060D6CC17289A4100ED0375 /* CoreGraphics.framework */; };
@@ -24,6 +35,18 @@
 		C060D6EF17289A4200ED0375 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060D6CE17289A4100ED0375 /* CoreData.framework */; };
 		C060D6F717289A4200ED0375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C060D6F517289A4200ED0375 /* InfoPlist.strings */; };
 		C060D6FA17289A4200ED0375 /* alphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C060D6F917289A4200ED0375 /* alphaTests.m */; };
+		C0970A841742D8EC0002571D /* btn-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7A1742D8EC0002571D /* btn-cloud.png */; };
+		C0970A851742D8EC0002571D /* btn-comment.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7B1742D8EC0002571D /* btn-comment.png */; };
+		C0970A861742D8EC0002571D /* btn-like.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7C1742D8EC0002571D /* btn-like.png */; };
+		C0970A871742D8EC0002571D /* btn-restream.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7D1742D8EC0002571D /* btn-restream.png */; };
+		C0970A881742D8EC0002571D /* item-divider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7E1742D8EC0002571D /* item-divider.jpg */; };
+		C0970A891742D8EC0002571D /* proxy-comments.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A7F1742D8EC0002571D /* proxy-comments.png */; };
+		C0970A8A1742D8EC0002571D /* proxy-status.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A801742D8EC0002571D /* proxy-status.png */; };
+		C0970A8B1742D8EC0002571D /* proxy-thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0970A811742D8EC0002571D /* proxy-thumbnail.jpg */; };
+		C0970A8C1742D8EC0002571D /* proxy-title.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A821742D8EC0002571D /* proxy-title.png */; };
+		C0970A8D1742D8EC0002571D /* proxy-title2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A831742D8EC0002571D /* proxy-title2.png */; };
+		C0970A8F1742D9230002571D /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A8E1742D9230002571D /* 114.png */; };
+		C0970A911742D94A0002571D /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = C0970A901742D94A0002571D /* 57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +60,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086C277A173DFAB200969E6D /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccelerometerFilter.h; path = classes/misc/AccelerometerFilter.h; sourceTree = "<group>"; };
+		086C277B173DFAB200969E6D /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccelerometerFilter.m; path = classes/misc/AccelerometerFilter.m; sourceTree = "<group>"; };
+		086C2781173E323D00969E6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		086C279E1740234E00969E6D /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = alpha/TestFlightSDK1.2.4/libTestFlight.a; sourceTree = "<group>"; };
+		086C279F1740234E00969E6D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = TestFlightSDK1.2.4/TestFlight.h; sourceTree = "<group>"; };
+		086C27A21740240E00969E6D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		325298FA17321744001018B4 /* MSGestaltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSGestaltViewController.h; path = classes/views/MSGestaltViewController.h; sourceTree = "<group>"; };
+		325298FB17321744001018B4 /* MSGestaltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSGestaltViewController.m; path = classes/views/MSGestaltViewController.m; sourceTree = "<group>"; };
+		325298FC17321744001018B4 /* MSGestaltViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MSGestaltViewController.xib; path = classes/views/MSGestaltViewController.xib; sourceTree = "<group>"; };
+		325298FF17321CD6001018B4 /* MSInfiniteHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSInfiniteHScrollView.h; path = classes/views/MSInfiniteHScrollView.h; sourceTree = "<group>"; };
+		3252990017321CD6001018B4 /* MSInfiniteHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSInfiniteHScrollView.m; path = classes/views/MSInfiniteHScrollView.m; sourceTree = "<group>"; };
+		3252990217322898001018B4 /* MSStreamPreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSStreamPreView.h; path = classes/views/MSStreamPreView.h; sourceTree = "<group>"; };
+		3252990317322898001018B4 /* MSStreamPreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSStreamPreView.m; path = classes/views/MSStreamPreView.m; sourceTree = "<group>"; };
+		325299051732305A001018B4 /* MSStreamCtaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSStreamCtaView.h; path = classes/views/MSStreamCtaView.h; sourceTree = "<group>"; };
+		325299061732305A001018B4 /* MSStreamCtaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSStreamCtaView.m; path = classes/views/MSStreamCtaView.m; sourceTree = "<group>"; };
 		C060D6C517289A4100ED0375 /* alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C060D6C817289A4100ED0375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C060D6CA17289A4100ED0375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +96,18 @@
 		C060D6F617289A4200ED0375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C060D6F817289A4200ED0375 /* alphaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alphaTests.h; sourceTree = "<group>"; };
 		C060D6F917289A4200ED0375 /* alphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alphaTests.m; sourceTree = "<group>"; };
+		C0970A7A1742D8EC0002571D /* btn-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-cloud.png"; path = "assets/btn-cloud.png"; sourceTree = "<group>"; };
+		C0970A7B1742D8EC0002571D /* btn-comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-comment.png"; path = "assets/btn-comment.png"; sourceTree = "<group>"; };
+		C0970A7C1742D8EC0002571D /* btn-like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-like.png"; path = "assets/btn-like.png"; sourceTree = "<group>"; };
+		C0970A7D1742D8EC0002571D /* btn-restream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-restream.png"; path = "assets/btn-restream.png"; sourceTree = "<group>"; };
+		C0970A7E1742D8EC0002571D /* item-divider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "item-divider.jpg"; path = "assets/item-divider.jpg"; sourceTree = "<group>"; };
+		C0970A7F1742D8EC0002571D /* proxy-comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "proxy-comments.png"; path = "assets/proxy-comments.png"; sourceTree = "<group>"; };
+		C0970A801742D8EC0002571D /* proxy-status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "proxy-status.png"; path = "assets/proxy-status.png"; sourceTree = "<group>"; };
+		C0970A811742D8EC0002571D /* proxy-thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "proxy-thumbnail.jpg"; path = "assets/proxy-thumbnail.jpg"; sourceTree = "<group>"; };
+		C0970A821742D8EC0002571D /* proxy-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "proxy-title.png"; path = "assets/proxy-title.png"; sourceTree = "<group>"; };
+		C0970A831742D8EC0002571D /* proxy-title2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "proxy-title2.png"; path = "assets/proxy-title2.png"; sourceTree = "<group>"; };
+		C0970A8E1742D9230002571D /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		C0970A901742D94A0002571D /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +115,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086C27A31740240E00969E6D /* libz.dylib in Frameworks */,
+				086C2782173E323D00969E6D /* QuartzCore.framework in Frameworks */,
 				C060D6C917289A4100ED0375 /* UIKit.framework in Frameworks */,
 				C060D6CB17289A4100ED0375 /* Foundation.framework in Frameworks */,
 				C060D6CD17289A4100ED0375 /* CoreGraphics.framework in Frameworks */,
 				C060D6CF17289A4100ED0375 /* CoreData.framework in Frameworks */,
+				086C27A01740234E00969E6D /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +133,7 @@
 				C060D6ED17289A4200ED0375 /* UIKit.framework in Frameworks */,
 				C060D6EE17289A4200ED0375 /* Foundation.framework in Frameworks */,
 				C060D6EF17289A4200ED0375 /* CoreData.framework in Frameworks */,
+				086C27A11740234E00969E6D /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +143,8 @@
 		C060D6BC17289A4100ED0375 = {
 			isa = PBXGroup;
 			children = (
+				C0970A901742D94A0002571D /* 57.png */,
+				C0970A8E1742D9230002571D /* 114.png */,
 				C060D6D017289A4100ED0375 /* alpha */,
 				C060D6F217289A4200ED0375 /* alphaTests */,
 				C060D6C717289A4100ED0375 /* Frameworks */,
@@ -108,6 +164,9 @@
 		C060D6C717289A4100ED0375 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				086C27A21740240E00969E6D /* libz.dylib */,
+				086C2781173E323D00969E6D /* QuartzCore.framework */,
+				086C279E1740234E00969E6D /* libTestFlight.a */,
 				C060D6C817289A4100ED0375 /* UIKit.framework */,
 				C060D6CA17289A4100ED0375 /* Foundation.framework */,
 				C060D6CC17289A4100ED0375 /* CoreGraphics.framework */,
@@ -120,9 +179,31 @@
 		C060D6D017289A4100ED0375 /* alpha */ = {
 			isa = PBXGroup;
 			children = (
+				086C279F1740234E00969E6D /* TestFlight.h */,
+				086C277A173DFAB200969E6D /* AccelerometerFilter.h */,
+				086C277B173DFAB200969E6D /* AccelerometerFilter.m */,
 				C060D6D917289A4100ED0375 /* MSAAppDelegate.h */,
 				C060D6DA17289A4100ED0375 /* MSAAppDelegate.m */,
+				3252990217322898001018B4 /* MSStreamPreView.h */,
+				325299051732305A001018B4 /* MSStreamCtaView.h */,
+				325299061732305A001018B4 /* MSStreamCtaView.m */,
+				3252990317322898001018B4 /* MSStreamPreView.m */,
+				325298FF17321CD6001018B4 /* MSInfiniteHScrollView.h */,
+				3252990017321CD6001018B4 /* MSInfiniteHScrollView.m */,
+				325298FA17321744001018B4 /* MSGestaltViewController.h */,
+				325298FB17321744001018B4 /* MSGestaltViewController.m */,
+				325298FC17321744001018B4 /* MSGestaltViewController.xib */,
 				C060D6E217289A4100ED0375 /* alpha.xcdatamodeld */,
+				C0970A7A1742D8EC0002571D /* btn-cloud.png */,
+				C0970A7B1742D8EC0002571D /* btn-comment.png */,
+				C0970A7C1742D8EC0002571D /* btn-like.png */,
+				C0970A7D1742D8EC0002571D /* btn-restream.png */,
+				C0970A7E1742D8EC0002571D /* item-divider.jpg */,
+				C0970A7F1742D8EC0002571D /* proxy-comments.png */,
+				C0970A801742D8EC0002571D /* proxy-status.png */,
+				C0970A811742D8EC0002571D /* proxy-thumbnail.jpg */,
+				C0970A821742D8EC0002571D /* proxy-title.png */,
+				C0970A831742D8EC0002571D /* proxy-title2.png */,
 				C060D6D117289A4100ED0375 /* Supporting Files */,
 			);
 			path = alpha;
@@ -237,6 +318,19 @@
 				C060D6DD17289A4100ED0375 /* Default.png in Resources */,
 				C060D6DF17289A4100ED0375 /* Default@2x.png in Resources */,
 				C060D6E117289A4100ED0375 /* Default-568h@2x.png in Resources */,
+				325298FE17321744001018B4 /* MSGestaltViewController.xib in Resources */,
+				C0970A841742D8EC0002571D /* btn-cloud.png in Resources */,
+				C0970A851742D8EC0002571D /* btn-comment.png in Resources */,
+				C0970A861742D8EC0002571D /* btn-like.png in Resources */,
+				C0970A871742D8EC0002571D /* btn-restream.png in Resources */,
+				C0970A881742D8EC0002571D /* item-divider.jpg in Resources */,
+				C0970A891742D8EC0002571D /* proxy-comments.png in Resources */,
+				C0970A8A1742D8EC0002571D /* proxy-status.png in Resources */,
+				C0970A8B1742D8EC0002571D /* proxy-thumbnail.jpg in Resources */,
+				C0970A8C1742D8EC0002571D /* proxy-title.png in Resources */,
+				C0970A8D1742D8EC0002571D /* proxy-title2.png in Resources */,
+				C0970A8F1742D9230002571D /* 114.png in Resources */,
+				C0970A911742D94A0002571D /* 57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +368,11 @@
 				C060D6D717289A4100ED0375 /* main.m in Sources */,
 				C060D6DB17289A4100ED0375 /* MSAAppDelegate.m in Sources */,
 				C060D6E417289A4100ED0375 /* alpha.xcdatamodeld in Sources */,
+				325298FD17321744001018B4 /* MSGestaltViewController.m in Sources */,
+				3252990117321CD7001018B4 /* MSInfiniteHScrollView.m in Sources */,
+				3252990417322898001018B4 /* MSStreamPreView.m in Sources */,
+				325299071732305A001018B4 /* MSStreamCtaView.m in Sources */,
+				086C277C173DFAB200969E6D /* AccelerometerFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C060D6FA17289A4200ED0375 /* alphaTests.m in Sources */,
+				086C277D173DFAB200969E6D /* AccelerometerFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				New_Setting = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -363,6 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				New_Setting = "";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -375,6 +477,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alpha/alpha-Prefix.pch";
 				INFOPLIST_FILE = "alpha/alpha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/alpha/TestFlightSDK1.2.4\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,6 +492,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alpha/alpha-Prefix.pch";
 				INFOPLIST_FILE = "alpha/alpha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/alpha/TestFlightSDK1.2.4\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +512,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alpha/alpha-Prefix.pch";
 				INFOPLIST_FILE = "alphaTests/alphaTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/alpha/TestFlightSDK1.2.4\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -419,6 +533,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alpha/alpha-Prefix.pch";
 				INFOPLIST_FILE = "alphaTests/alphaTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/alpha/TestFlightSDK1.2.4\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -444,6 +562,7 @@
 				C060D6FF17289A4200ED0375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C060D70017289A4200ED0375 /* Build configuration list for PBXNativeTarget "alphaTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +571,7 @@
 				C060D70217289A4200ED0375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

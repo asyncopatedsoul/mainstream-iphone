@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MSGestaltViewController.h"
 
 @interface MSAAppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -7,6 +7,7 @@
 //
 
 #import "MSAAppDelegate.h"
+#import "TestFlight.h"
 
 @implementation MSAAppDelegate
 
@@ -25,10 +26,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+    
+    [TestFlight takeOff:@"a6e6b353-2a56-4b7b-a661-cabcec254dc0"];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MSGestaltViewController *viewController = [[MSGestaltViewController alloc] init];
+    [self.window addSubview:viewController.view];
+    
     return YES;
 }
 
